@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body_index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Button1 {
+    border: blanchedalmond solid 2px;
+    background-color: #2e8b57;
+    color: white; /* 加上白色文字 */
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+}
+.Button_back {
+    color: #2e8b57; /* 加上白色文字 */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+.row {
+    box-sizing: border-box;
+    display: flex;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: lightgrey;
+    margin-bottom: 8px;
+}
+.action_content {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action {
+    border: black 1px solid;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 100px;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.prepare_body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.prepare_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    border-radius: 50%;
+}
+.player_unchoose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 300px;
+    color: azure;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    border-radius: 8px;
+    border: black 1px solid;
+}
+.player_choose {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    height: 300px;
+    background-color: #2e8b57;
+    border-radius: 8px;
+    border: black 1px solid;
+}
+.name_circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    color: #2e8b57;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.place_area {
+    display: flex;
+    flex-direction: column;
+}
+.place_area_section {
+    display: flex;
+}
+.section_words {
+    color: aliceblue;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* 讓子元素垂直置中，不要被拉伸 */
+}
+
+.change_player {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+.input_player_name {
+    box-sizing: border-box;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-left: 4px;
+    border-radius: 4px;
+    border: solid 1px lightseagreen;
+}
+.button_chooseplayer {
+    width: 100px;
+    height: 40px;
+}
+.Button_back {
+    display: flex;
+    align-items: center;
+    border: #2e8b57 solid 1px;
+    border-radius: 4px;
+    background-color: blanchedalmond;
+}
